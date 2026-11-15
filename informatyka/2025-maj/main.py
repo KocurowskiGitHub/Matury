@@ -14,6 +14,32 @@ def zad1():
             else:
                 w = b
         return w
+
+    def przestaw2(n):
+        potega = 1
+        r = n % 100
+        a = r // 10
+        b = r % 10
+        n //= 100
+        if n == 0 and a == 0:
+            return b
+        w = a + 10 * b
+        while n > 0:
+            r = n % 100
+            a = r // 10
+            b = r % 10
+            n //= 100
+            zpotegowanaLiczba = 100
+            i = 1
+            while i < potega:
+                zpotegowanaLiczba *= 100
+                i += 1
+            if n == 0 and a == 0:
+                w += zpotegowanaLiczba * b
+            else:
+                w += zpotegowanaLiczba * (a + 10 * b)
+            potega += 1
+        return w
     print(przestaw(316498))
     print(globals()["licznik_wywolan"])
     print()
@@ -28,6 +54,11 @@ def zad1():
     globals()["licznik_wywolan"] = 0
     print(przestaw(998877665544321))
     print(globals()["licznik_wywolan"])
+    print("\nPrzestaw2:")
+    print(przestaw2(316498))
+    print(przestaw2(43657688))
+    print(przestaw2(154005710))
+    print(przestaw2(998877665544321))
     print()
 
 def zad2():
@@ -203,14 +234,14 @@ def zad3():
         odp.append(f'{licznik}\n')
         for i in range(len(punkty)):
             punkt1 = punkty[i]
-            for j in range(i+1,len(punkty)-1):
+            for j in range(i+1,len(punkty)):
                 punkt2 = punkty[j]
-                for k in range(i+1,len(punkty)-1):
+                for k in range(len(punkty)):
                     punkt3 = punkty[k]
-                    sredniaX = abs(punkt2[0]+punkt1[0])/2
-                    sredniaY = abs(punkt2[1]+punkt1[1])/2
+                    sredniaX = (punkt2[0]+punkt1[0])/2
+                    sredniaY = (punkt2[1]+punkt1[1])/2
                     if punkt3[0] == sredniaX and punkt3[1] == sredniaY:
-                        odp.append(f'{punkt1},{punkt3},{punkt2}')
+                        odp.append(f'{punkt1},{punkt3},{punkt2}\n')
         dopiszOdp(odp)
 
     zad3_1()
@@ -218,5 +249,5 @@ def zad3():
 
 
 zad1()
-#zad2()
-#zad3()
+zad2()
+zad3()

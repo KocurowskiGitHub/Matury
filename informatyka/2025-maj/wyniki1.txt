@@ -8,3 +8,29 @@ Zadanie 1.1
 998877665544321 | 989786756453412 | 8
 Zadanie 1.2
 FPPF
+Zadanie 1.3
+def przestaw2(n):
+    potega = 1
+    r = n % 100
+    a = r // 10
+    b = r % 10
+    n //= 100
+    if n == 0 and a == 0:
+        return b
+    w = a + 10 * b
+    while n > 0:
+        r = n % 100
+        a = r // 10
+        b = r % 10
+        n //= 100
+        zpotegowanaLiczba = 100
+        i = 1
+        while i < potega:
+            zpotegowanaLiczba *= 100
+            i += 1
+        if n == 0 and a == 0:
+            w += zpotegowanaLiczba * b
+        else:
+            w += zpotegowanaLiczba * (a + 10 * b)
+        potega += 1
+    return w
