@@ -29,7 +29,7 @@ Matury/
 
 ## 📜 Licencja dla całego projektu
 
-Pliki w tym repozytorium można wykorzystywać **w celach edukacyjnych i niekomercyjnych**.
+Pliki w tym repozytorium są objęte licencją CC BY-NC 4.0.
 
 ✅ **Wolno:**
 - oglądać pliki,

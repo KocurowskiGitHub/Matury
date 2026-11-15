@@ -1,0 +1,31 @@
+Zadanie 7.1:
+Mare Boreum
+Zadanie 7.2:
+Spirit 14
+29.08.2066
+25.07.2076
+Zadanie 7.3:
+Amazonis
+Arabia
+Syrtis Major
+Elysium
+Sinus Sabaeus
+Mare Tyrrhenum
+Aeolis
+Eridania
+Zadanie 7.4:
+Mariner 14
+Mariner 15
+Mariner 20
+Viking 17
+Spirit 7
+Spirit 12
+Rosetta 1
+Rosetta 8
+Phoenix 13
+Zadanie 7.5:
+select DISTINCT nazwa from Producent 
+inner join laziki on laziki.kod_producenta = Producent.kod_producenta 
+inner join pomiary on pomiary.nr_lazika = laziki.nr_lazika 
+inner join obszary on obszary.kod_obszaru = pomiary.kod_obszaru 
+where nazwa_obszaru = "Arcadia" and YEAR(data_pomiaru) = 2060;

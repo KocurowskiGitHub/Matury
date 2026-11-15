@@ -13,7 +13,7 @@ Nazwa każdego folderu z egzaminem śledzi jeden wzór: **Rok-Miesiąc** egzamin
 | `2026-czerwiec` | 2026 | Czerwiec | ❌ | ❌ | ❌ | ❌ |
 | `2026-maj` | 2026 | Maj | ❌ | ❌ | ❌ | ❌ |
 | `2025-czerwiec` | 2025 | Czerwiec | ❌ | ❌ | ❌ | ❌ |
-| `2025-maj` | 2025 | Maj | ✅ | ✅ | ✅ | ❌ |
+| `2025-maj` | 2025 | Maj | ✅ | ✅ | ✅ | ✅ |
 | `2024-czerwiec` | 2024 | Czerwiec | ❌ | ❌ | ❌ | ❌ |
 | `2024-maj` | 2024 | Maj | ❌ | ❌ | ❌ | ❌ |
 | `2023-czerwiec` | 2023 | Czerwiec | ❌ | ❌ | ❌ | ❌ |
