@@ -29,14 +29,7 @@ Matury/
 
 ## 📜 Licencja dla całego projektu
 
-Pliki w tym repozytorium są objęte licencją CC BY-NC 4.0.
-
-✅ **Wolno:**
-- oglądać pliki,
-- pobierać je i **zmieniać u siebie na komputerze**, aby lepiej zrozumieć materiał lub poduczyć się z wiedzy z informatyki i matematyki.
-
-❌ **Nie wolno:**
-- wykorzystywać plików w celach komercyjnych.
+Pliki w tym repozytorium są objęte licencją **CC BY-NC 4.0**.
 
 ---
 
