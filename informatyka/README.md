@@ -23,6 +23,8 @@ Nazwa każdego folderu z egzaminem śledzi jeden wzór: **Rok-Miesiąc** egzamin
 | `2021-maj` | 2021 | Maj | ❌ | ❌ | ❌ | ❌ |
 | `2020-lipiec` | 2020 | Lipiec | ❌ | ❌ | ❌ | ❌ |
 | `2020-maj` | 2020 | Maj | ❌ | ❌ | ❌ | ❌ |
+| `2016-maj` | 2016 | Maj | ✅ | ✅ | ⚠️ | ✅ |
 
 ✅ – część egzaminu jest już w repozytorium  
 ❌ – części egzaminu jeszcze nie ma w repozytorium
+⚠️ - część egzaminu jest zrobiona w inny sposób (notatka w folderze danej matury)
